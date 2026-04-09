@@ -18,7 +18,7 @@
                <name xml:id="nj3c51d">Verovio</name>
                <p xml:id="p1gijko7">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="a3uo742" startdate="2026-04-09T15:37:03" version="1.2.9" enddate="2026-04-09T16:49:03">
+            <application xml:id="a3uo742" startdate="2026-04-09T15:37:03" version="1.2.9" enddate="2026-04-09T16:51:55">
                <name xml:id="n6i9gg61">mei-friend</name>
                <p xml:id="p0q0xzb1">First edit by mei-friend 1.2.9.</p>
             </application>
@@ -1050,8 +1050,10 @@
                                  <note xml:id="qy1ip23" oct="5" pname="f" />
                               </chord>
                            </beam>
-                           <note xml:id="rl9xl60" dur.ppq="4" dur="8" oct="5" pname="e" stem.dir="up" />
-                           <note xml:id="sv7iqou" dur.ppq="4" dur="8" oct="5" pname="d" stem.dir="down" />
+                           <beam xml:id="bo8xjg">
+                              <note xml:id="rl9xl60" dur.ppq="4" dur="8" oct="5" pname="e" stem.dir="down"/>
+                              <note xml:id="sv7iqou" dur.ppq="4" dur="8" oct="5" pname="d" stem.dir="down"/>
+                           </beam>
                         </layer>
                         <layer xml:id="t1oao5l2" n="2">
                            <space xml:id="w1qie03m" dur.ppq="16" dur="2" />
@@ -1086,7 +1088,6 @@
                         </layer>
                      </staff>
                      <slur xml:id="l1u8heer" startid="#jov0yhc" endid="#ok4ltql" />
-                     <dynam xml:id="z1ja94cb" place="below" staff="3" tstamp="3" val="100" vgrp="793">ff</dynam>
                   </measure>
                   <measure xml:id="t1yrqiji" n="12" facs="#zone_03ef657e15cc4b50a1">
                      <staff xml:id="cood1ob" n="1">
@@ -1404,6 +1405,7 @@
                      </staff>
                      <tie xml:id="zcpsd9d" startid="#yqegx8t" endid="#a1d953ni" />
                      <tie xml:id="y1tfgqr0" startid="#xtwz6dp" endid="#a1u84apo" />
+                     <slur xml:id="s697zo1" endid="#" staff="2" startid="#bzjoy09"/>
                   </measure>
                </section>
             </score>
