@@ -18,7 +18,7 @@
                <name xml:id="nj3c51d">Verovio</name>
                <p xml:id="p1gijko7">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="a3uo742" startdate="2026-04-09T15:37:03" version="1.2.9" enddate="2026-04-09T16:20:11">
+            <application xml:id="a3uo742" startdate="2026-04-09T15:37:03" version="1.2.9" enddate="2026-04-09T16:28:46">
                <name xml:id="n6i9gg61">mei-friend</name>
                <p xml:id="p0q0xzb1">First edit by mei-friend 1.2.9.</p>
             </application>
@@ -209,10 +209,14 @@
                               <note xml:id="x195g0nm" oct="4" pname="c" />
                               <note xml:id="zm3dvvj" oct="4" pname="g" />
                            </chord>
-                           <note xml:id="a7s0vu0" dur.ppq="4" dur="8" oct="4" pname="a" stem.dir="up" />
-                           <note xml:id="b1p4uzod" dur.ppq="4" dur="8" oct="5" pname="c" stem.dir="up" />
-                           <note xml:id="dp2mz9n" dur.ppq="4" dur="8" oct="5" pname="c" stem.dir="up" />
-                           <note xml:id="e1yuawlt" dur.ppq="4" dur="8" oct="4" pname="b" stem.dir="up" />
+                           <beam xml:id="b6flwka1">
+                              <note xml:id="a7s0vu0" dur.ppq="4" dur="8" oct="4" pname="a" stem.dir="up"/>
+                              <note xml:id="b1p4uzod" dur.ppq="4" dur="8" oct="5" pname="c" stem.dir="up"/>
+                           </beam>
+                           <beam xml:id="bka3b0y1">
+                              <note xml:id="dp2mz9n" dur.ppq="4" dur="8" oct="5" pname="c" stem.dir="up"/>
+                              <note xml:id="e1yuawlt" dur.ppq="4" dur="8" oct="4" pname="b" stem.dir="up"/>
+                           </beam>
                         </layer>
                         <layer xml:id="fdhbglj" n="2">
                            <space xml:id="h3tnj7j" dur.ppq="16" dur="2" />
@@ -240,6 +244,7 @@
                      <tie xml:id="cnz8ld0" startid="#bgwclnb" endid="#pf7rtq" />
                      <tie xml:id="c1qgql3z" startid="#b1p4uzod" endid="#dp2mz9n" />
                      <tie xml:id="m1n3kxw0" startid="#lp5fv7q" endid="#qvfc1n4" />
+                     <tie xml:id="tjxu3ze1" endid="#x6hllff" staff="5" startid="#u14nz66a"/>
                   </measure>
                   <measure xml:id="m1q3oxop" n="3" facs="#zone_f019ed6b09134ec6b4">
                      <staff xml:id="v8hr52g" n="1">
@@ -289,11 +294,15 @@
                      <staff xml:id="eok8fqe" n="4">
                         <layer xml:id="g1y7g4or" n="1">
                            <note xml:id="hm8i7sz" dur.ppq="8" dur="4" oct="4" pname="b" stem.dir="up" />
-                           <note xml:id="jee4euk" dur.ppq="4" dur="8" oct="4" pname="b" stem.dir="up" />
-                           <note xml:id="kvmy2e9" dur.ppq="4" dur="8" oct="4" pname="a" stem.dir="up" />
+                           <beam xml:id="bdq03b">
+                              <note xml:id="jee4euk" dur.ppq="4" dur="8" oct="4" pname="b" stem.dir="up"/>
+                              <note xml:id="kvmy2e9" dur.ppq="4" dur="8" oct="4" pname="a" stem.dir="up"/>
+                           </beam>
                            <note xml:id="l1ew4gbq" dur.ppq="8" dur="4" oct="4" pname="a" stem.dir="up" />
-                           <note xml:id="m1lknh4l" dur.ppq="4" dur="8" oct="4" pname="g" stem.dir="up" />
-                           <note xml:id="n4tjfr7" dur.ppq="4" dur="8" oct="4" pname="f" stem.dir="up" />
+                           <beam xml:id="bk452lf1">
+                              <note xml:id="m1lknh4l" dur.ppq="4" dur="8" oct="4" pname="g" stem.dir="up"/>
+                              <note xml:id="n4tjfr7" dur.ppq="4" dur="8" oct="4" pname="f" stem.dir="up"/>
+                           </beam>
                         </layer>
                         <layer xml:id="ol5jv3i" n="2">
                            <beam xml:id="pdnj4md">
@@ -394,7 +403,6 @@
                      <tie xml:id="l1dvekdp" startid="#k6xeaxz" endid="#njqf23d" />
                      <tie xml:id="r1udpkhg" startid="#qbnqyul" endid="#t1527x4t" />
                   </measure>
-                  <sb xml:id="g2x8h5p" />
                   <measure xml:id="w17qewjl" right="dbl" n="5" facs="#zone_7b41bd7741c2422a91">
                      <staff xml:id="f1r69iwd" n="1">
                         <layer xml:id="hoi8hgw" n="1">
