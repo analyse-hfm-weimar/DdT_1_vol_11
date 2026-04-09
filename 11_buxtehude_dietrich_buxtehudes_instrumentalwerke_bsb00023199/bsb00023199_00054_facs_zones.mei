@@ -5,8 +5,8 @@
    <meiHead xml:id="mrlr5ss">
       <fileDesc xml:id="f1d7b0mu">
          <titleStmt xml:id="tk1ugpt">
-            <title />
-            <respStmt />
+            <title/>
+            <respStmt/>
          </titleStmt>
          <pubStmt xml:id="ptgnqnm">
             <date isodate="2019-02-12" type="encoding-date">2019-02-12</date>
@@ -17,6 +17,10 @@
             <application xml:id="a1wjcvbn" isodate="2025-08-29T17:43:44" version="5.5.0-e003172">
                <name xml:id="n7rgc6l">Verovio</name>
                <p xml:id="pavs78x">Transcoded from MusicXML</p>
+            </application>
+            <application xml:id="ajpuetp1" startdate="2026-04-09T16:29:00" version="1.2.9" enddate="2026-04-09T16:29:00">
+               <name xml:id="nsea9do1">mei-friend</name>
+               <p xml:id="pe1fw1g1">First edit by mei-friend 1.2.9.</p>
             </application>
          </appInfo>
       </encodingDesc>
@@ -106,15 +110,13 @@
                      <tempo place="above" staff="4" tstamp="1">Vivace.</tempo>
                      <staff xml:id="m150qjbs" n="2">
                         <layer xml:id="n1ep5das" n="1">
-                           <mSpace xml:id="p606wqx" />
+                           <mRest xml:id="p606wqx" />
                         </layer>
                      </staff>
                      <staff xml:id="gufpi21" n="3">
                         <layer xml:id="h1gesrd0" n="1">
                            <beam xml:id="iwo4tw5">
-                              <note xml:id="jy6acx2" dur.ppq="2" dur="8" oct="3" pname="c" stem.dir="down">
-                                 <artic xml:id="kwa5dma" artic="marc" />
-                              </note>
+                              <note xml:id="jy6acx2" dur="8" dur.ppq="2" oct="3" pname="c" stem.dir="down"/>
                               <note xml:id="l1b4tryl" dur.ppq="1" dur="16" oct="4" pname="c" stem.dir="down" />
                               <note xml:id="mxf64zq" dur.ppq="1" dur="16" oct="3" pname="b" stem.dir="down" />
                            </beam>
@@ -269,6 +271,7 @@
                      <keySig xml:id="j1k8wwev" sig="1f" />
                   </scoreDef>
                   <measure xml:id="y16k7zul" metcon="false" n="3" facs="#zone_4bb775b2922946a8a6">
+               
                      <staff xml:id="hc6q1uh" n="1">
                         <layer xml:id="k1t4z08r" n="1">
                            <rest xml:id="l1nlzs1o" dur.ppq="8" dur="2" />
