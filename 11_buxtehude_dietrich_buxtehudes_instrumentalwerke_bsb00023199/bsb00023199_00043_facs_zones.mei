@@ -18,7 +18,7 @@
                                             <name xml:id="n4ky863">Verovio</name>
                                             <p xml:id="pq52u8m">Transcoded from MusicXML</p>
     </application>
-    <application xml:id="a98whi01" startdate="2026-04-09T16:21:20" version="1.2.9" enddate="2026-04-10T18:19:48">
+    <application xml:id="a98whi01" startdate="2026-04-09T16:21:20" version="1.2.9" enddate="2026-04-10T18:35:16">
                                             <name xml:id="nywhjo5">mei-friend</name>
                                             <p xml:id="pf0idsb">First edit by mei-friend 1.2.9.</p>
     </application>
@@ -53,7 +53,7 @@
                   <staffGrp xml:id="fjwnj1r">
                      <staffDef xml:id="P1" n="1" lines="5" ppq="8">
                         <label xml:id="g1wug6rs">Violino.</label>
-                        <labelAbbr xml:id="i1w3oz3n">Prt1</labelAbbr>
+                        <labelAbbr xml:id="i1w3oz3n"></labelAbbr>
                         <instrDef xml:id="k1iivuwa" midi.channel="0" midi.instrnum="0" midi.volume="77%" />
                         <clef xml:id="t16u9x73" shape="G" line="2" />
                         <keySig xml:id="u49hkwr" sig="2f" />
@@ -61,7 +61,7 @@
                      </staffDef>
                      <staffDef xml:id="P2" n="2" lines="5" ppq="8">
                         <label xml:id="i1x9p5fg">Viola da gamba.</label>
-                        <labelAbbr xml:id="k1bpqv82">Prt2</labelAbbr>
+                        <labelAbbr xml:id="k1bpqv82"></labelAbbr>
                         <instrDef xml:id="m1jtuqy6" midi.channel="1" midi.instrnum="0" midi.volume="77%" />
                         <clef xml:id="va73f51" shape="C" line="3" />
                         <keySig xml:id="w124ncli" sig="2f" />
@@ -69,7 +69,7 @@
                      </staffDef>
                      <staffDef xml:id="P3" n="3" lines="5" ppq="8">
                         <label xml:id="l1hzjk2k">Cembalo.</label>
-                        <labelAbbr xml:id="n8nb6t9">Prt3</labelAbbr>
+                        <labelAbbr xml:id="n8nb6t9"></labelAbbr>
                         <instrDef xml:id="p11ry6c6" midi.channel="2" midi.instrnum="0" midi.volume="77%" />
                         <clef xml:id="y1dj1qgg" shape="F" line="4" />
                         <keySig xml:id="z1c7zxg4" sig="2f" />
@@ -77,8 +77,8 @@
                      </staffDef>
                      <staffGrp xml:id="P4" bar.thru="true">
                         <grpSym xml:id="j53jhg8" symbol="brace" />
-                        <label xml:id="jjod54h">System 4</label>
-                        <labelAbbr xml:id="lrzmgfg">Prt4</labelAbbr>
+                        <label xml:id="jjod54h"></label>
+                        <labelAbbr xml:id="lrzmgfg"></labelAbbr>
                         <instrDef xml:id="n1orpekp" midi.channel="3" midi.instrnum="0" midi.volume="77%" />
                         <staffDef xml:id="pgauci3" n="4" lines="5" ppq="8">
                            <clef xml:id="w1n05odn" shape="G" line="2" />
@@ -256,17 +256,13 @@
                            <note xml:id="t3b7r69" dur.ppq="8" dur="4" oct="4" pname="b" stem.dir="up" accid.ges="f" />
                         </layer>
                            <layer xml:id="v1dl7laa" n="2">
-                           <note xml:id="w2css8q" dur.ppq="8" dur="4" oct="4" pname="f" stem.dir="down" />
-                           <note xml:id="xrxq3qi" dur.ppq="16" dur="2" oct="4" pname="d" stem.dir="down" />
-                           <note xml:id="n92xn2n1" dur="4" oct="4" pname="f" stem.dir="down"/>
-                        </layer>
-                        <layer xml:id="v1dl7laa" n="2">
-                           <space xml:id="c11xtaqm" dur.ppq="8" dur="4" />
-                           <space xml:id="c11xtaqm" dur.ppq="8" dur="4" />
-                           <space xml:id="c11xtaqm" dur.ppq="8" dur="4" />
-                           <note xml:id="n92xn2n1" dur="4" oct="4" pname="d" stem.dir="down"/>
-                           
-                        </layer>
+                             <note xml:id="w2css8q" dur.ppq="8" dur="4" oct="4" pname="f" stem.dir="down" />
+                             <note xml:id="xrxq3qi" dur.ppq="16" dur="2" oct="4" pname="d" stem.dir="down" />                       
+						<chord xml:id="cxemnj31" dur="4">
+    						<note xml:id="ns8apj4" oct="4" pname="f"/>
+    						<note xml:id="n4inxfs2" oct="4" pname="d"/>
+			            </chord>
+                           </layer> 
                      </staff>
                      <staff xml:id="nkmiztw" n="5">
                         <layer xml:id="ygt2p75" n="5">
@@ -394,7 +390,8 @@
                         <layer xml:id="jfmnfrn" n="2">
                            <note xml:id="ku7fby6" dur.ppq="16" dur="2" oct="4" pname="f" stem.dir="down" />
                            <note xml:id="liqnnuf" dur.ppq="8" dur="4" oct="4" pname="e" stem.dir="down" />
-                           <note xml:id="liqnnuf" dur.ppq="8" dur="4" oct="4" pname="d" stem.dir="down" />
+						   <note xml:id="nhtsvqp1" dur="4" oct="4" pname="d" stem.dir="down"/>
+                           
                         </layer>
                      </staff>
                      <staff xml:id="b1s93yp4" n="5">
