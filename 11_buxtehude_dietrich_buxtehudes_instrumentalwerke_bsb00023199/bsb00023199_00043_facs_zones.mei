@@ -2,29 +2,29 @@
 <?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
-   <meiHead xml:id="m1j7vwk4">
-      <fileDesc xml:id="f1ufkmha">
-         <titleStmt xml:id="t1b6me8c">
-            <title/>
-            <respStmt/>
-         </titleStmt>
-         <pubStmt xml:id="p89mz2i">
-            <date isodate="2019-02-12" type="encoding-date">2019-02-12</date>
-         </pubStmt>
-      </fileDesc>
-      <encodingDesc xml:id="e1n4wpvj">
-         <appInfo xml:id="admfd14">
-            <application xml:id="alrb94k" isodate="2025-08-29T17:43:43" version="5.5.0-e003172">
-               <name xml:id="n4ky863">Verovio</name>
-               <p xml:id="pq52u8m">Transcoded from MusicXML</p>
-            </application>
-            <application xml:id="a98whi01" startdate="2026-04-09T16:21:20" version="1.2.9" enddate="2026-04-09T16:46:36">
-               <name xml:id="nywhjo5">mei-friend</name>
-               <p xml:id="pf0idsb">First edit by mei-friend 1.2.9.</p>
-            </application>
-         </appInfo>
-      </encodingDesc>
-   </meiHead>
+    <meiHead xml:id="m1j7vwk4">
+                                            <fileDesc xml:id="f1ufkmha">
+<titleStmt xml:id="t1b6me8c">
+    <title/>
+    <respStmt/>
+</titleStmt>
+<pubStmt xml:id="p89mz2i">
+    <date isodate="2019-02-12" type="encoding-date">2019-02-12</date>
+</pubStmt>
+                                            </fileDesc>
+                                            <encodingDesc xml:id="e1n4wpvj">
+<appInfo xml:id="admfd14">
+    <application xml:id="alrb94k" isodate="2025-08-29T17:43:43" version="5.5.0-e003172">
+                                            <name xml:id="n4ky863">Verovio</name>
+                                            <p xml:id="pq52u8m">Transcoded from MusicXML</p>
+    </application>
+    <application xml:id="a98whi01" startdate="2026-04-09T16:21:20" version="1.2.9" enddate="2026-04-10T16:06:01">
+                                            <name xml:id="nywhjo5">mei-friend</name>
+                                            <p xml:id="pf0idsb">First edit by mei-friend 1.2.9.</p>
+    </application>
+</appInfo>
+                                            </encodingDesc>
+    </meiHead>
    <music>
       <facsimile>
          <surface xml:id="surface_65e2977b50c1" n="1" ulx="0" uly="0" lrx="4133" lry="5494">
@@ -309,21 +309,21 @@
                      </staff>
                      <staff xml:id="qdcxlet" n="4">
                         <layer xml:id="sihxv38" n="1">
-                           <chord xml:id="u1fjmmoc" dur.ppq="8" dur="4" stem.dir="up">
-                              <note xml:id="tcndllj" oct="4" pname="g" />
-                              <note xml:id="vfciqty" oct="4" pname="b" accid.ges="f" />
-                           </chord>
+                           
                            <chord xml:id="y6xhfvx" dur.ppq="8" dur="4" stem.dir="up">
                               <note xml:id="xiar1wr" oct="4" pname="c" />
-                              <note xml:id="z1thklyb" oct="4" pname="f" />
-                              <note xml:id="aesbolk" oct="4" pname="a" />
+                              <note xml:id="z1thklyb" oct="4" pname="g" />
+                              <note xml:id="aesbolk" oct="4" pname="b" />
                            </chord>
                            <chord xml:id="c1mwwcvo" dur.ppq="8" dur="4" stem.dir="up">
-                              <note xml:id="b876fw7" oct="4" pname="d" />
+                              <note xml:id="b876fw7" oct="4" pname="c" />
                               <note xml:id="drmqf3q" oct="4" pname="f" />
-                              <note xml:id="eklscn8" oct="4" pname="b" accid.ges="f" />
+                              <note xml:id="eklscn8" oct="4" pname="a" accid.ges="f" />
                            </chord>
-                           <note xml:id="g7i2dh3" dur.ppq="8" dur="4" oct="4" pname="f" stem.dir="down" />
+						   <chord xml:id="co7r1pg1" dur="4" stem.dir="up">
+    						  <note xml:id="g7i2dh3" dur.ppq="8" oct="4" pname="c" stem.dir="up"/>
+    						  <note xml:id="n6rnewc1" dur.ppq="8" oct="4" pname="f" stem.dir="up"/>/>
+						   </chord>
                         </layer>
                      </staff>
                      <staff xml:id="r1ane0mg" n="5">
