@@ -18,7 +18,7 @@
                                             <name xml:id="n7u8jhk">Verovio</name>
                                             <p xml:id="pn6zhep">Transcoded from MusicXML</p>
     </application>
-    <application xml:id="a9rlc9l1" startdate="2026-04-11T18:59:55" version="1.2.9" enddate="2026-04-11T19:08:21">
+    <application xml:id="a9rlc9l1" startdate="2026-04-11T18:59:55" version="1.2.9" enddate="2026-04-11T19:16:43">
                                             <name xml:id="nz6gl97">mei-friend</name>
                                             <p xml:id="p98e3yo1">First edit by mei-friend 1.2.9.</p>
     </application>
@@ -163,7 +163,10 @@
                      </staff>
                      <staff xml:id="g1qcksgq" n="5">
                         <layer xml:id="wldvwv9" n="5">
-                           <note xml:id="x1dcqups" dur.ppq="8" dur="4" oct="3" pname="e" stem.dir="down" accid.ges="f" />
+						  <chord xml:id="cnbldk61" dur="4" stem.dir="down">
+   							 <note xml:id="x1dcqups" dur.ppq="8" oct="3" pname="b" accid.ges="f"/>
+   							 <note xml:id="nj8vzbi2" oct="3" pname="e"/>
+						   </chord>
                            <chord xml:id="abe3wyg" dur.ppq="8" dur="4" stem.dir="down">
                               <note xml:id="z133ydi8" oct="3" pname="g" />
                               <note xml:id="b1bcg72w" oct="3" pname="b" accid.ges="f" />
@@ -180,7 +183,8 @@
                            <note xml:id="i18fckzw" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="up" />
                         </layer>
                      </staff>
-                  </measure>
+                  <tie xml:id="tuvjelr1" endid="#nwwjuzq1" staff="4" startid="#t1lugiol"/>
+</measure>
                   <measure xml:id="amu33dl" n="2" facs="#zone_fc8c9f26403141089e">
                      <staff xml:id="j4daxlp" n="1">
                         <layer xml:id="k1yfqnp8" n="1">
@@ -228,9 +232,18 @@
                      </staff>
                      <staff xml:id="uj4nc5" n="4">
                         <layer xml:id="wzbco3j" n="1">
-                           <note xml:id="xehiikq" dur.ppq="8" dur="4" oct="5" pname="d" stem.dir="up" />
-                           <note xml:id="y1rjtxqp" dur.ppq="8" dur="4" oct="4" pname="a" stem.dir="up" />
-                           <note xml:id="z1xp5nx4" dur.ppq="8" dur="4" oct="4" pname="b" stem.dir="up" accid.ges="f" />
+						   <chord xml:id="ccat4ph" dur="4" stem.dir="up">
+    						  <note xml:id="xehiikq" dur.ppq="8" oct="5" pname="d"/>
+    						  <note xml:id="nwwjuzq1" oct="4" pname="f"/>
+						   </chord>
+						   <chord xml:id="cv8ml1c" dur="4" stem.dir="up">
+   							 <note xml:id="y1rjtxqp" dur.ppq="8" oct="4" pname="a"/>
+   							 <note xml:id="nmlv7kg" oct="4" pname="d"/>
+						   </chord>
+						   <chord xml:id="cxj5gzs2" dur="4" stem.dir="up">
+   							 <note xml:id="z1xp5nx4" dur.ppq="8" oct="4" pname="b" accid.ges="f"/>
+   							 <note xml:id="nr4cq7w1" oct="4" pname="d"/>
+						   </chord>
                            <chord xml:id="c1k7edfn" dur.ppq="8" dur="4" stem.dir="up">
                               <note xml:id="b937w53" oct="4" pname="d" />
                               <note xml:id="d1nni4tt" oct="4" pname="f" />
@@ -245,11 +258,13 @@
                               <note xml:id="k1j5n2y8" oct="3" pname="b" accid.ges="f" />
                            </chord>
                            <note xml:id="m1vdatcz" dur.ppq="8" dur="4" oct="2" pname="f" stem.dir="up" />
-                           <note xml:id="n1o52zzx" dur.ppq="8" dur="4" oct="2" pname="d" stem.dir="up" />
+                           <note xml:id="n1o52zzx" dur.ppq="8" dur="4" oct="2" pname="g" stem.dir="up" />
+						   <note xml:id="nsbbsue1" dur="4" oct="2" pname="d" stem.dir="up"/>
                            <space xml:id="o1909ups" dur.ppq="8" dur="4" />
                         </layer>
                      </staff>
-                  </measure>
+                  <tie xml:id="t4reh4b" endid="#nr4cq7w1" staff="4" startid="#nmlv7kg"/>
+</measure>
                   <measure xml:id="i1tub8oa" n="3" facs="#zone_deacd6f114474327ae">
                      <staff xml:id="r1sbdnbh" n="1">
                         <layer xml:id="si9kzoz" n="1">
