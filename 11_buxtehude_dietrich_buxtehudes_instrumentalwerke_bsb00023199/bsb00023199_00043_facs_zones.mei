@@ -18,7 +18,7 @@
                                             <name xml:id="n4ky863">Verovio</name>
                                             <p xml:id="pq52u8m">Transcoded from MusicXML</p>
     </application>
-    <application xml:id="a98whi01" enddate="2026-04-13T12:54:20" startdate="2026-04-09T16:21:20" version="1.2.9">
+    <application xml:id="a98whi01" enddate="2026-04-13T13:23:41" startdate="2026-04-09T16:21:20" version="1.2.9">
                                             <name xml:id="nywhjo5">mei-friend</name>
                                             <p xml:id="pf0idsb">First edit by mei-friend 1.2.9.</p>
     </application>
@@ -138,11 +138,6 @@
                               </note>
                            </beam>
                            <note xml:id="t18t5jdg" dur="4" dur.ppq="8" oct="3" pname="a" stem.dir="down"/>
-                           	  <harm xml:id="t18t5jdg" place="below">
-							    <fb>
-							    <f>6</f>
-							    </fb>
-						      </harm>
                            <note xml:id="u6jbej5" accid.ges="f" dur="4" dur.ppq="8" oct="3" pname="b" stem.dir="down"/>
                            <note xml:id="w1uu3fdz" dur="4" dur.ppq="8" oct="3" pname="d" stem.dir="down"/>
                         </layer>
@@ -542,7 +537,11 @@
                      <staff xml:id="q1asqu35" n="4">
                         <layer xml:id="s1ljcuxc" n="1">
                            <note xml:id="tcesj7g" accid.ges="f" dur="4" dur.ppq="8" oct="4" pname="b" stem.dir="up"/>
-                           <note xml:id="v2r8zps" accid.ges="f" dur="4" dur.ppq="8" oct="4" pname="b" stem.dir="up"/>
+						  <chord xml:id="cpusfd81" dur="4" stem.dir="up">
+   							  <note xml:id="v2r8zps" accid.ges="f" dur.ppq="8" oct="4" pname="b"/>
+                              <note xml:id="h17a7909" oct="4" pname="d"/>
+                              <note xml:id="jefh6gc" oct="4" pname="f"/>
+						   </chord>
                            <chord xml:id="y10ytzbd" dur="4" dur.ppq="8" stem.dir="up">
                               <note xml:id="x15w838b" oct="4" pname="c"/>
                               <note xml:id="zuv5whz" oct="4" pname="g"/>
@@ -556,10 +555,7 @@
                         </layer>
                         <layer xml:id="ff0ps0n" n="2">
                            <note xml:id="gxt4kcg" dur="4" dur.ppq="8" oct="4" pname="d" stem.dir="down"/>
-                           <chord xml:id="iu7fl52" dur="4" dur.ppq="8" stem.dir="up">
-                              <note xml:id="h17a7909" oct="4" pname="d"/>
-                              <note xml:id="jefh6gc" oct="4" pname="f"/>
-                           </chord>
+                           
                         </layer>
                      </staff>
                      <staff xml:id="rw85g0" n="5">
