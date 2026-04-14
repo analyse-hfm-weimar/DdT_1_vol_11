@@ -18,7 +18,7 @@
                                             <name xml:id="n497qe7">Verovio</name>
                                             <p xml:id="p1l2do7h">Transcoded from MusicXML</p>
     </application>
-    <application xml:id="ap5z0a31" startdate="2026-04-14T12:49:34" version="1.2.9" enddate="2026-04-14T17:58:33">
+    <application xml:id="ap5z0a31" startdate="2026-04-14T12:49:34" version="1.2.9" enddate="2026-04-14T18:04:34">
                                             <name xml:id="nvovxim2">mei-friend</name>
                                             <p xml:id="pmhvcu6">First edit by mei-friend 1.2.9.</p>
     </application>
@@ -806,7 +806,10 @@
                               <note xml:id="e1hywclf" oct="4" pname="c" />
                               <note xml:id="h1y7gq9z" oct="4" pname="g" />
                            </chord>
-                           <note xml:id="ig63mk6" dur.ppq="8" dur="4" oct="4" pname="f" stem.dir="up" />
+						   <chord xml:id="crzy6nl1" dur="4" stem.dir="up">
+   							  <note xml:id="ig63mk6" dur.ppq="8" oct="4" pname="f"/>
+   							  <note xml:id="no2pvro2" oct="4" pname="c"/>
+						   </chord>
                            <note xml:id="juev4v8" dur.ppq="8" dur="4" oct="3" pname="a" stem.dir="down" />
                            <chord xml:id="n1qvuat5" dur.ppq="8" dur="4" stem.dir="down">
                               <note xml:id="l1821pwt" oct="3" pname="b" accid.ges="f" />
@@ -814,8 +817,12 @@
                            </chord>
                            <note xml:id="p1smu6ig" dur.ppq="8" dur="4" oct="4" pname="f" stem.dir="up" />
                         </layer>
-                        <layer xml:id="qqbex1x" n="2">
+                        <layer xml:id="qqbex1x" n="2">                           
                            <note xml:id="r1fdpnf" dur.ppq="8" dur="4" oct="3" pname="b" stem.dir="down" accid.ges="f" />
+						   <beam>
+                           	<note xml:id="nqnpwqf" dur="8" oct="3" pname="b" stem.dir="down"/>
+						   	<note xml:id="ndm0ddg1" dur="8" oct="3" pname="a" stem.dir="down"/>
+                           </beam>
                         </layer>
                      </staff>
                      <staff xml:id="cngeb7a" n="5">
@@ -830,7 +837,7 @@
                            <space xml:id="dqxkwis" dur.ppq="8" dur="4" />
                         </layer>
                      </staff>
-                     <arpeg xml:id="gpdi1bv" plist="#f8z2v63 #r1fdpnf" />
+                     
                      <slur xml:id="k1blzgz" startid="#juev4v8" endid="#l1821pwt" />
                   </measure>
                   <sb xml:id="rebkb70" />
