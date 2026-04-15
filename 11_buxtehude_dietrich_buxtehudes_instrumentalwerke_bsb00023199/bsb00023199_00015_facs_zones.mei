@@ -18,7 +18,7 @@
                <name xml:id="n14jooki">Verovio</name>
                <p xml:id="p11ojx78">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="a925uvj2" startdate="2026-04-12T18:16:31" version="1.2.9" enddate="2026-04-15T17:19:38">
+            <application xml:id="a925uvj2" startdate="2026-04-12T18:16:31" version="1.2.9" enddate="2026-04-15T17:28:11">
                <name xml:id="n3ez3yj2">mei-friend</name>
                <p xml:id="phbyyhy2">First edit by mei-friend 1.2.9.</p>
             </application>
@@ -1393,10 +1393,16 @@
                                  <note xml:id="z1pjtbp1" oct="5" pname="c" />
                               </chord>
                            </beam>
-                           <chord xml:id="b189r414" dots="1" dur.ppq="6" dur="4" stem.dir="up">
-                              <note xml:id="a13tzqw1" oct="4" pname="f" />
-                              <note xml:id="cdh0i72" oct="4" pname="a" />
-                           </chord>
+                           <beam xml:id="b51yqgt1">
+                              <chord xml:id="b189r414" dots="1" dur.ppq="3" dur="8" stem.dir="up">
+                                 <note xml:id="a13tzqw1" oct="4" pname="f"/>
+                                 <note xml:id="cdh0i72" oct="4" pname="a"/>
+                              </chord>
+                              <chord xml:id="dsfzh" dur="16" stem.dir="up">
+                                 <note xml:id="dsfh2" oct="4" pname="f"/> 
+                                 <note xml:id="dsfg2" oct="4" pname="a"/> 
+                              </chord>
+                           </beam>
                            <beam xml:id="bw26rd3">
                               <chord xml:id="ea84jqd" dots="1" dur.ppq="3" dur="8" stem.dir="up">
                                  <note xml:id="d1xnurax" oct="4" pname="f"/>
