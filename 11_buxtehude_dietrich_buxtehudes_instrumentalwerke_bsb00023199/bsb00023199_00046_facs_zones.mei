@@ -2,29 +2,29 @@
 <?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
-   <meiHead xml:id="m178feg1">
-      <fileDesc xml:id="fsimwyp">
-         <titleStmt xml:id="tbx0aui">
-            <title/>
-            <respStmt/>
-         </titleStmt>
-         <pubStmt xml:id="p1gc07i3">
-            <date isodate="2019-02-12" type="encoding-date">2019-02-12</date>
-         </pubStmt>
-      </fileDesc>
-      <encodingDesc xml:id="eg32nbd">
-         <appInfo xml:id="a19h9q08">
-            <application xml:id="a1vtdxeb" isodate="2025-08-29T17:43:43" version="5.5.0-e003172">
-               <name xml:id="niccqh0">Verovio</name>
-               <p xml:id="pk4chgb">Transcoded from MusicXML</p>
-            </application>
-            <application xml:id="ake4l42" startdate="2026-04-15T12:49:37" version="1.2.9" enddate="2026-04-15T17:41:40">
-               <name xml:id="nut9xg9">mei-friend</name>
-               <p xml:id="pgfjufv1">First edit by mei-friend 1.2.9.</p>
-            </application>
-         </appInfo>
-      </encodingDesc>
-   </meiHead>
+    <meiHead xml:id="m178feg1">
+                                            <fileDesc xml:id="fsimwyp">
+<titleStmt xml:id="tbx0aui">
+    <title/>
+    <respStmt/>
+</titleStmt>
+<pubStmt xml:id="p1gc07i3">
+    <date isodate="2019-02-12" type="encoding-date">2019-02-12</date>
+</pubStmt>
+                                            </fileDesc>
+                                            <encodingDesc xml:id="eg32nbd">
+<appInfo xml:id="a19h9q08">
+    <application xml:id="a1vtdxeb" isodate="2025-08-29T17:43:43" version="5.5.0-e003172">
+                                            <name xml:id="niccqh0">Verovio</name>
+                                            <p xml:id="pk4chgb">Transcoded from MusicXML</p>
+    </application>
+    <application xml:id="ake4l42" startdate="2026-04-15T12:49:37" version="1.2.9" enddate="2026-04-16T14:54:38">
+                                            <name xml:id="nut9xg9">mei-friend</name>
+                                            <p xml:id="pgfjufv1">First edit by mei-friend 1.2.9.</p>
+    </application>
+</appInfo>
+                                            </encodingDesc>
+    </meiHead>
    <music>
       <facsimile>
          <surface xml:id="surface_87dc14d5c686" n="1" ulx="0" uly="0" lrx="4133" lry="5522">
@@ -1226,18 +1226,12 @@
                               <note xml:id="c4n2sxo" dur.ppq="4" dur="8" oct="3" pname="b" stem.dir="up" accid.ges="f" />
                            </beam>
                            <note xml:id="e6dqow9" dur.ppq="2" dur="16" oct="3" pname="g" stem.dir="up" />
-                           <space xml:id="fsdqer" dots="2" dur.ppq="14" dur="4" />
-                        </layer>
-                        <layer xml:id="g1umo5hh" n="2">
-                           <space xml:id="il13cnr" dur.ppq="16" dur="2" />
-                           <rest xml:id="h1ahxxjy" dur.ppq="2" dur="16" />
                            <note xml:id="j1sf8aj9" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down" />
                            <rest xml:id="k224pzq" dur.ppq="2" dur="16" />
-                           <note xml:id="l1ybmpsw" dur.ppq="4" dur="8" oct="4" pname="e" stem.dir="down">
-                              <accid xml:id="m17wn7cq" accid="f" />
-                           </note>
-                           <space xml:id="n13hii76" dur.ppq="4" dur="8" />
+                           <note xml:id="l1ybmpsw" dur.ppq="4" dur="16" oct="3" pname="b" stem.dir="up"/>
+					       <note xml:id="nbamjw6" dur="8" oct="4" pname="e" stem.dir="down"/>
                         </layer>
+                      
                      </staff>
                      <staff xml:id="w1gghugj" n="3">
                         <layer xml:id="xg0aktb" n="1">
