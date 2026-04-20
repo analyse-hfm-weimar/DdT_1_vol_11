@@ -18,7 +18,7 @@
                <name xml:id="n1qdmrtw">Verovio</name>
                <p xml:id="pleqaqt">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="aw21vfb" startdate="2026-04-20T14:20:53" version="1.2.9" enddate="2026-04-20T14:48:51">
+            <application xml:id="aw21vfb" startdate="2026-04-20T14:20:53" version="1.2.9" enddate="2026-04-20T14:51:00">
                <name xml:id="nh130qu1">mei-friend</name>
                <p xml:id="pu0hlif1">First edit by mei-friend 1.2.9.</p>
             </application>
@@ -1029,22 +1029,26 @@
                                  <note xml:id="a1paxqot" oct="5" pname="c" />
                               </chord>
                            </beam>
-                           <note xml:id="b3xzskh" dur.ppq="2" dur="8" oct="4" pname="b" stem.dir="up">
-                              <accid xml:id="c18f5x61" accid="f" />
-                           </note>
-                           <note xml:id="dlkifnn" dur.ppq="2" dur="8" oct="5" pname="c" stem.dir="up" />
+                           <beam xml:id="bu0wp1m2">
+                              <note xml:id="b3xzskh" dur.ppq="2" dur="8" oct="4" pname="b" stem.dir="up">
+                                 <accid xml:id="c18f5x61" accid="f"/>
+                              </note>
+                              <note xml:id="dlkifnn" dur.ppq="2" dur="8" oct="5" pname="c" stem.dir="up"/>
+                           </beam>
                         </layer>
                         <layer xml:id="egqioc5" n="2">
                            <note xml:id="f1wz7ip4" dur.ppq="4" dur="4" oct="4" pname="d" stem.dir="down" />
                            <space xml:id="il354ek" dur.ppq="8" dur="2" />
-                           <chord xml:id="hbykbf2" dur.ppq="2" dur="8" stem.dir="down">
-                              <note xml:id="gsc6wj7" oct="4" pname="d" />
-                              <note xml:id="jkyky8o" oct="4" pname="f" />
-                           </chord>
-                           <chord xml:id="l101ra4" dur.ppq="2" dur="8" stem.dir="down">
-                              <note xml:id="kl65zsh" oct="4" pname="c" />
-                              <note xml:id="m1vi68rd" oct="4" pname="g" />
-                           </chord>
+                           <beam xml:id="bweante1">
+                              <chord xml:id="hbykbf2" dur.ppq="2" dur="8" stem.dir="down">
+                                 <note xml:id="gsc6wj7" oct="4" pname="d"/>
+                                 <note xml:id="jkyky8o" oct="4" pname="f"/>
+                              </chord>
+                              <chord xml:id="l101ra4" dur.ppq="2" dur="8" stem.dir="down">
+                                 <note xml:id="kl65zsh" oct="4" pname="c"/>
+                                 <note xml:id="m1vi68rd" oct="4" pname="g"/>
+                              </chord>
+                           </beam>
                         </layer>
                      </staff>
                      <staff xml:id="k7rliyz" n="5">
@@ -1055,14 +1059,13 @@
                         <layer xml:id="q1g2zn1r" n="6">
                            <note xml:id="rdfld11" dur.ppq="4" dur="4" oct="3" pname="d" stem.dir="down" />
                            <rest xml:id="s1pxlz11" dur.ppq="2" dur="8" />
+                           <note xml:id="dgfhuw4" dur="8" oct="2" pname="b" accid="n" stem.dir="down"/>
                            <note xml:id="t13iq6u6" dur.ppq="4" dur="4" oct="3" pname="c" stem.dir="down" />
                            <beam xml:id="u3vm0dk">
                               <note xml:id="vywvuhn" dur.ppq="2" dur="8" oct="3" pname="d" stem.dir="down" />
                               <note xml:id="wo92t28" dur.ppq="2" dur="8" oct="3" pname="e" stem.dir="down">
-                                 <artic xml:id="xpiala8" artic="stacc" />
                               </note>
                            </beam>
-                           <space xml:id="y16tr65k" dur.ppq="2" dur="8" />
                         </layer>
                      </staff>
                   </measure>
