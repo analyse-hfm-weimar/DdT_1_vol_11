@@ -53,7 +53,7 @@
                         <labelAbbr xml:id="l1bjn5e6">Prt1</labelAbbr>
                         <instrDef xml:id="n15la6i7" midi.channel="0" midi.instrnum="0" midi.volume="77%" />
                         <clef xml:id="wfornf1" shape="G" line="2" />
-                        <keySig xml:id="x1o8hjtu" sig="0" />
+                        <keySig xml:id="x1o8hjtu" sig="1f" />
                         <meterSig xml:id="ywurb4q" count="4" unit="4" />
                      </staffDef>
                      <staffDef xml:id="P2" n="2" lines="5" ppq="8">
@@ -79,12 +79,12 @@
                         <instrDef xml:id="vpqw2n6" midi.channel="14" midi.instrnum="0" midi.volume="77%" />
                         <staffDef xml:id="x1nonwh8" n="4" lines="5" ppq="8">
                            <clef xml:id="e1rb6atg" shape="G" line="2" />
-                           <keySig xml:id="fgrxcad" sig="0" />
+                           <keySig xml:id="fgrxcad" sig="1f" />
                            <meterSig xml:id="ghsqda2" count="4" unit="4" />
                         </staffDef>
                         <staffDef xml:id="h4g1b8c" n="5" lines="5" ppq="8">
                            <clef xml:id="o1l9wuu6" shape="F" line="4" />
-                           <keySig xml:id="plaptjc" sig="0" />
+                           <keySig xml:id="plaptjc" sig="1f" />
                            <meterSig xml:id="qb2y5bx" count="4" unit="4" />
                         </staffDef>
                      </staffGrp>
@@ -406,7 +406,7 @@
                      </staff>
                   </measure>
                   <sb xml:id="fz0a8ai" />
-                  <measure xml:id="v8bnd6o" right="dbl" n="4" facs="#zone_42dde3f859924bb581">
+                  <measure xml:id="v8bnd6o" right="single" n="4" facs="#zone_42dde3f859924bb581">
                      <staff xml:id="em3i49g" n="1">
                         <layer xml:id="g1t8dg5w" n="1">
                            <beam xml:id="h18jkbbz">
@@ -869,8 +869,11 @@
                         </layer>
                      </staff>
                   </measure>
-                  <pb xml:id="mba9ihk" />
-                  <measure xml:id="c1m1rhlx" right="dbl" n="8" facs="#zone_db55d836978b4a33b1">
+                  <sb xml:id="mba9ihk" />
+                  <scoreDef xml:id="m10dfz2o">
+                     <keySig xml:id="nasfs6cfq" sig="1f" />
+                  </scoreDef>
+                  <measure xml:id="c1m1rhlx" right="single" n="8" facs="#zone_db55d836978b4a33b1">
                      <staff xml:id="l6nykg7" n="1">
                         <layer xml:id="n189y5xw" n="1">
                            <rest xml:id="otz2z24" dur.ppq="4" dur="8" />
@@ -948,6 +951,9 @@
                      </staff>
                   </measure>
                   <sb xml:id="j1si4270" />
+                  <scoreDef xml:id="mknk7z2o">
+                     <keySig xml:id="nsdfs6cfq" sig="1f" />
+                  </scoreDef>
                   <measure xml:id="zeb3n1q" n="9" facs="#zone_a98b7853491e4b37bd">
                      <staff xml:id="iducbak" n="1">
                         <layer xml:id="k1tq0skz" n="1">
@@ -1198,6 +1204,7 @@
                      <staff xml:id="umpmcri" n="2">
                         <layer xml:id="v8nsd4z" n="1">
                            <note xml:id="w2hgl2u" dur.ppq="32" dur="1" oct="2" pname="d" stem.visible="false" />
+                           <clef xml:id="newClef01" shape="C" line="4"/>
                         </layer>
                      </staff>
                      <staff xml:id="wqmxk5g" n="3">
@@ -1226,10 +1233,15 @@
                      <fermata xml:id="s9wj7xz" staff="5" startid="#rnf69i1" form="inv" place="below" />
                   </measure>
                   <sb xml:id="dj1fh7o" />
+                  <scoreDef xml:id="mknk7o">
+                     <keySig xml:id="nsds6cfq" sig="1f" />
+                  </scoreDef>
                   <measure xml:id="t1pbjf5o" metcon="false" n="14" facs="#zone_42942f3cb1b74edf98">
+                     <dir xml:id="dirCond01" place="above" staff="3" tstamp="1">Con discretione</dir>
                      <staff xml:id="cdplntk" n="1">
                         <layer xml:id="evfjfog" n="1">
-                           <mSpace xml:id="g1eurdov" />
+                           <space xml:id="g1eurdov" dur.ppq="16" dur="2" />
+                           <rest xml:id="newRest09" dur.ppq="32" dur="1" />
                         </layer>
                      </staff>
                      <staff xml:id="h1clnhyd" n="2">
@@ -1240,13 +1252,10 @@
                               <note xml:id="n1d3tyg7" dur.ppq="4" dur="8" oct="4" pname="f" stem.dir="down" />
                               <note xml:id="pg05a1j" dur.ppq="1" dur="32" oct="4" pname="f" stem.dir="down" />
                               <note xml:id="q38ikj8" dur.ppq="1" dur="32" oct="3" pname="a" stem.dir="down" />
-                              <note xml:id="rm2jnst" dur.ppq="1" dur="32" oct="3" pname="b" stem.dir="down" accid.ges="f">
-                                 <artic xml:id="t1ec3rl1" artic="stacc" />
-                              </note>
+                              <note xml:id="rm2jnst" dur.ppq="1" dur="32" oct="3" pname="b" stem.dir="down" accid.ges="f" />
                               <note xml:id="um93vl4" dur.ppq="1" dur="32" oct="4" pname="c" stem.dir="down" />
                            </beam>
                            <note xml:id="v1tw78t" dur.ppq="4" dur="8" oct="3" pname="b" stem.dir="down" accid.ges="f" />
-                           <rest xml:id="yhaeu1u" dur.ppq="16" dur="2" />
                            <beam xml:id="z1teqpya">
                               <note xml:id="a1wdllff" dur.ppq="1" dur="32" oct="3" pname="b" stem.dir="down" accid.ges="f" />
                               <note xml:id="d1mh0bw3" dur.ppq="1" dur="32" oct="3" pname="b" stem.dir="down" accid.ges="f" />
@@ -1278,7 +1287,6 @@
                               <note xml:id="kj0i0nu" oct="4" pname="b" accid.ges="f" />
                               <note xml:id="nd66p7x" oct="5" pname="d" />
                            </chord>
-                           <rest xml:id="p1tpto0j" dur.ppq="32" dur="1" />
                         </layer>
                      </staff>
                      <staff xml:id="fw8odv" n="5">
@@ -1289,7 +1297,6 @@
                      </staff>
                      <tie xml:id="o1gsgp0p" startid="#n1d3tyg7" endid="#pg05a1j" />
                      <tie xml:id="x1ict4ek" startid="#v1tw78t" endid="#a1wdllff" />
-                     <hairpin xml:id="cw0qcm9" staff="2" tstamp="5.625" tstamp2="0m+6" form="cres" place="below" vgrp="650" />
                      <tie xml:id="j1ft0nvg" startid="#i1m2glmy" endid="#k1f0gxd3" />
                      <tie xml:id="nk32k5t" startid="#l1g98oau" endid="#an8en66" />
                      <tie xml:id="j108fcs9" startid="#h29lsh6" endid="#hkx5iin" />
@@ -1368,7 +1375,10 @@
                      <tie xml:id="o1hvrr53" startid="#n1xhftps" endid="#jifatl0" />
                      <tie xml:id="sc6ttrl" startid="#q6qw3ox" endid="#m4og672" />
                   </measure>
-                  <pb xml:id="foik14q" />
+                  <sb xml:id="foik14q" />
+                  <scoreDef xml:id="mhbrtg7z2o">
+                     <keySig xml:id="nsddgf6cfq" sig="1f" />
+                  </scoreDef>
                   <measure xml:id="vv1ibdq" metcon="false" n="16" facs="#zone_bcdab695a8c34a19ba">
                      <staff xml:id="e1lrmgoa" n="1">
                         <layer xml:id="gux1b36" n="1">
