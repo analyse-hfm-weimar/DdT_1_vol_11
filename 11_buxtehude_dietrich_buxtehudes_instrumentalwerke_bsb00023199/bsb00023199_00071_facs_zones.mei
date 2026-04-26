@@ -1369,6 +1369,8 @@
                            </note>
                         </layer>
                      </staff>
+                     <dir xml:id="xren3a7" place="above" staff="3" tstamp="1">Piano</dir>
+                     <dir xml:id="olndd3a7" place="above" staff="5" tstamp="1">Piano</dir>
                      <staff xml:id="ooq9vgy" n="3">
                         <layer xml:id="pep07qz" n="1">
                            <note xml:id="q12k6qaw" dots="1" dur.ppq="3" dur="4" oct="3" pname="f" stem.dir="down" />
@@ -1439,7 +1441,10 @@
                               <note xml:id="t5e26if" oct="4" pname="g" />
                               <note xml:id="v1lqv1ye" oct="4" pname="b" accid.ges="f" />
                            </chord>
-                           <note xml:id="x582n23" dur.ppq="1" dur="8" oct="4" pname="b" stem.dir="up" accid.ges="f" />
+                           <chord xml:id="k3p8za1" dur.ppq="1" dur="8" stem.dir="up">
+                              <note xml:id="x582n23" oct="4" pname="b" accid.ges="f" />
+                              <note xml:id="e7m2lc9" oct="4" pname="e" />
+                           </chord>
                            <chord xml:id="asuk0ll" dur.ppq="2" dur="4" stem.dir="up">
                               <note xml:id="z1u2lst7" oct="4" pname="f" />
                               <note xml:id="c1rhnhnj" oct="4" pname="a" />
@@ -1449,9 +1454,7 @@
                      <staff xml:id="rf3edea" n="5">
                         <layer xml:id="e8ufg6o" n="5">
                            <beam xml:id="f1eheh28">
-                              <note xml:id="g166lhmq" dur.ppq="1" dur="8" oct="3" pname="g" stem.dir="down">
-                                 <artic xml:id="h17egabe" artic="stacc" />
-                              </note>
+                              <note xml:id="g166lhmq" dur.ppq="1" dur="8" oct="3" pname="g" stem.dir="down" />
                               <note xml:id="ifp01jt" dur.ppq="1" dur="8" oct="3" pname="f" stem.dir="down">
                                  <accid xml:id="j1td75rx" accid="s" />
                               </note>
