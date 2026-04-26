@@ -118,9 +118,14 @@
                            <space xml:id="c127xn53" dur.ppq="8" dur="4" />
                         </layer>
                      </staff>
+                     <dir xml:id="k7m2vx1" place="above" staff="3" tstamp="1">Piano</dir>
+                     <dir xml:id="k7vx1" place="above" staff="5" tstamp="1">Piano</dir>
                      <staff xml:id="b1lz9e9g" n="3">
                         <layer xml:id="c1rp2qx5" n="1">
-                           <note xml:id="d1vjs9a" dur.ppq="8" dur="4" oct="2" pname="f" stem.dir="up" />
+                           <beam xml:id="q8n2vx4">
+                              <note xml:id="d1vjs9a" dur.ppq="4" dur="8" oct="2" pname="f" stem.dir="up" />
+                              <note xml:id="h6r1mc9" dur.ppq="4" dur="8" oct="2" pname="g" stem.dir="up" />
+                           </beam>
                            <beam xml:id="ewq10tm">
                               <note xml:id="fidnix9" dur.ppq="4" dur="8" oct="2" pname="f" stem.dir="up" />
                               <note xml:id="gvk4qzm" dur.ppq="4" dur="8" oct="2" pname="e" stem.dir="up" />
@@ -158,9 +163,6 @@
                            <space xml:id="ng6faaf" dur.ppq="8" dur="4" />
                         </layer>
                      </staff>
-                     <dir xml:id="p1u9dtfz" type="coda" place="above" staff="1" tstamp="0">
-                        <rend xml:id="q1g2x5ju" halign="center" glyph.auth="smufl" fontstyle="normal">𝄌</rend>
-                     </dir>
                      <slur xml:id="x15higda" startid="#w1svzmja" endid="#y1qkx1x0" />
                      <tie xml:id="b19q8sy8" startid="#ak5s95a" endid="#p3iphgh" />
                   </measure>
