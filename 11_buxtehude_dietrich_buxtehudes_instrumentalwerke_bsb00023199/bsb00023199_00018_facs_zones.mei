@@ -18,7 +18,7 @@
                <name xml:id="nygz4ts">Verovio</name>
                <p xml:id="p14okzdf">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="afhlkpo2" startdate="2026-04-18T22:23:08" version="1.2.9" enddate="2026-04-26T20:28:28">
+            <application xml:id="afhlkpo2" startdate="2026-04-18T22:23:08" version="1.2.9" enddate="2026-04-26T20:30:54">
                <name xml:id="nw107fr2">mei-friend</name>
                <p xml:id="pwmz3jt1">First edit by mei-friend 1.2.9.</p>
             </application>
@@ -1283,7 +1283,7 @@
                      </staff>
                      <staff xml:id="ayeqdvc" n="4">
                         <layer xml:id="c11udxwg" n="1">
-                           <space xml:id="dghzw" dur="4"/>
+                           <note xml:id="dghzw" dur="4" oct="4" pname="c" stem.dir="up"/>
                            <chord xml:id="f1vcu5jg" dur.ppq="4" dur="8" stem.dir="up">
                               <note xml:id="d93hjff" oct="3" pname="b">
                                  <accid xml:id="ex4374i" accid="n" />
@@ -1307,10 +1307,7 @@
                      </staff>
                      <staff xml:id="b10jovkx" n="5">
                         <layer xml:id="r9imi39" n="5">
-                           <chord xml:id="t45r73q" dur.ppq="8" dur="4" stem.dir="up">
-                              <note xml:id="s5zfkcz" oct="3" pname="a" />
-                              <note xml:id="u1fuwtzl" oct="5" pname="c" />
-                           </chord>
+                              <note xml:id="s5zfkcz" dur="4" oct="3" pname="a" stem.dir="up"/>
                            <space xml:id="v2932v5" dots="1" dur.ppq="24" dur="2" />
                         </layer>
                         <layer xml:id="w1krd3c1" n="6">
@@ -1331,6 +1328,7 @@
                            <space xml:id="i18n77u6" dur.ppq="8" dur="4" />
                         </layer>
                      </staff>
+                     <beamSpan xml:id="bppm0mn1" endid="#s5zfkcz" plist="#dghzw #s5zfkcz" startid="#dghzw"/>
                   </measure>
                   <measure xml:id="fjwrb99" n="13" facs="#zone_cfc5961dc5ee4942b5">
                      <staff xml:id="o187gnuo" n="1">
