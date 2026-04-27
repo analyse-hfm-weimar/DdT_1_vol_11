@@ -150,8 +150,10 @@
                      </staff>
                      <staff xml:id="k1m02hf6" n="4">
                         <layer xml:id="mt3pv5h" n="1">
+                           <beam>
                            <note xml:id="n1fe6lgj" dur.ppq="2" dur="8" oct="5" pname="c" stem.dir="up" />
                            <note xml:id="o12nfb6l" dur.ppq="2" dur="8" oct="4" pname="a" stem.dir="up" />
+                           </beam>
                            <beam xml:id="pik8n5j">
                               <chord xml:id="r9jkqfv" dots="1" dur.ppq="3" dur="8" stem.dir="up">
                                  <note xml:id="q67xnfh" oct="4" pname="d" />
@@ -264,9 +266,7 @@
                               <note xml:id="dq9zuif" dur.ppq="1" dur="16" oct="2" pname="g" stem.dir="up" />
                            </beam>
                            <beam xml:id="em3anip">
-                              <note xml:id="f19ekaag" dots="1" dur.ppq="3" dur="8" oct="3" pname="d" stem.dir="up">
-                                 <artic xml:id="ghm76vn" artic="acc" />
-                              </note>
+                              <note xml:id="f19ekaag" dots="1" dur.ppq="3" dur="8" oct="3" pname="d" stem.dir="up" />
                               <note xml:id="hfqobnn" dur.ppq="1" dur="16" oct="2" pname="a" stem.dir="up" />
                            </beam>
                            <beam xml:id="i1piisr8">
@@ -312,6 +312,16 @@
                            </beam>
                         </layer>
                      </staff>
+                     <harm startid="#f19ekaag" place="below">
+   							<fb>
+     								 <f>#</f>
+  								 </fb>
+							</harm>
+                     <harm startid="#j13o8al6" place="below">
+   							<fb>
+     								 <f>#</f>
+  								 </fb>
+							</harm>
                   </measure>
                   <measure xml:id="edin68y" metcon="false" n="3" facs="#zone_8db8d5b338aa41e7af">
                      <staff xml:id="nudpia7" n="1">
@@ -402,6 +412,11 @@
                            <space xml:id="z11jcarr" dur.ppq="2" dur="8" />
                         </layer>
                      </staff>
+                     <harm startid="#w1sjb1p3" place="below">
+   							<fb>
+     								 <f>6</f>
+  								 </fb>
+							</harm>
                   </measure>
                   <sb xml:id="uwf9q9l" />
                   <measure xml:id="kqdw5ty" n="4" facs="#zone_fb54e57032c64b7794">
