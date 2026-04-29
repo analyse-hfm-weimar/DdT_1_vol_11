@@ -46,49 +46,43 @@
          <mdiv xml:id="mvqgxqt1">
             <score xml:id="sj9heja">
                <scoreDef xml:id="srzaqdl1">
-                  <staffGrp xml:id="sunmyum1">
-                     <staffDef xml:id="soa5swb1" lines="5" n="1" ppq="4">
-                        <label xml:id="l5kmdge1">System 1</label>
-                        <labelAbbr xml:id="lyy9pmi2">Prt1</labelAbbr>
-                        <instrDef xml:id="ixqjlnz1" midi.channel="0" midi.instrnum="0" midi.volume="77%"/>
-                        <clef xml:id="c0l746" line="2" shape="G"/>
-                        <keySig xml:id="kavg0l91" sig="0"/>
-                        <meterSig xml:id="mt1eq0x2" count="4" sym="common" unit="4"/>
-                     </staffDef>
-                     <staffDef xml:id="sx15qi01" lines="5" n="2" ppq="4">
-                        <label xml:id="layn9xl1">System 2</label>
-                        <labelAbbr xml:id="llojzwj1">Prt2</labelAbbr>
-                        <instrDef xml:id="impnh9q1" midi.channel="6" midi.instrnum="0" midi.volume="77%"/>
-                        <clef xml:id="c7v6tdr1" line="3" shape="C"/>
-                        <keySig xml:id="k8asn5d" sig="0"/>
-                        <meterSig xml:id="mw303jf" count="4" sym="common" unit="4"/>
-                     </staffDef>
-                     <staffDef xml:id="s77vig31" lines="5" n="3" ppq="4">
-                        <label xml:id="lz6uamu2">System 3</label>
-                        <labelAbbr xml:id="leoiucf1">Prt3</labelAbbr>
-                        <instrDef xml:id="is7zhzn1" midi.channel="7" midi.instrnum="0" midi.volume="77%"/>
-                        <clef xml:id="c3zrrjg" line="4" shape="F"/>
-                        <keySig xml:id="k7d295x1" sig="0"/>
-                        <meterSig xml:id="m5g5qzl2" count="4" sym="common" unit="4"/>
-                     </staffDef>
-                     <staffGrp xml:id="s6ae72d1" bar.thru="true">
-                        <grpSym xml:id="gzdw4ix2" symbol="brace"/>
-                        <label xml:id="l5xxs8m1">System 4</label>
-                        <labelAbbr xml:id="loowiy41">Prt4</labelAbbr>
-                        <instrDef xml:id="is6t36c" midi.channel="8" midi.instrnum="0" midi.volume="77%"/>
-                        <staffDef xml:id="sbiqh8q2" lines="5" n="4" ppq="4">
-                           <clef xml:id="czag7zr2" line="2" shape="G"/>
-                           <keySig xml:id="kpplv2e1" sig="0"/>
-                           <meterSig xml:id="mczc6es1" count="4" sym="common" unit="4"/>
-                        </staffDef>
-                        <staffDef xml:id="sut075l1" lines="5" n="5" ppq="4">
-                           <clef xml:id="c6wped2" line="4" shape="F"/>
-                           <keySig xml:id="kdb9vr9" sig="0"/>
-                           <meterSig xml:id="mufuqze" count="4" sym="common" unit="4"/>
-                        </staffDef>
+                     <staffGrp xml:id="sunmyum1">
+                        <staffGrp symbol="bracket">
+                           <staffDef xml:id="soa5swb1" lines="5" n="1" ppq="4">
+                              <instrDef xml:id="ixqjlnz1" midi.channel="0" midi.instrnum="0" midi.volume="77%"/>
+                              <clef xml:id="c0l746" line="2" shape="G"/>
+                              <keySig xml:id="kavg0l91" sig="0"/>
+                              <meterSig xml:id="mt1eq0x2" count="4" sym="common" unit="4"/>
+                           </staffDef>
+                           <staffDef xml:id="sx15qi01" lines="5" n="2" ppq="4">
+                              <instrDef xml:id="impnh9q1" midi.channel="6" midi.instrnum="0" midi.volume="77%"/>
+                              <clef xml:id="c7v6tdr1" line="3" shape="C"/>
+                              <keySig xml:id="k8asn5d" sig="0"/>
+                              <meterSig xml:id="mw303jf" count="4" sym="common" unit="4"/>
+                           </staffDef>
+                           <staffDef xml:id="s77vig31" lines="5" n="3" ppq="4">
+                              <instrDef xml:id="is7zhzn1" midi.channel="7" midi.instrnum="0" midi.volume="77%"/>
+                              <clef xml:id="c3zrrjg" line="4" shape="F"/>
+                              <keySig xml:id="k7d295x1" sig="0"/>
+                              <meterSig xml:id="m5g5qzl2" count="4" sym="common" unit="4"/>
+                           </staffDef>
+                        </staffGrp>
+                        <staffGrp xml:id="s6ae72d1" bar.thru="true">
+                           <grpSym xml:id="gzdw4ix2" symbol="brace"/>
+                           <instrDef xml:id="is6t36c" midi.channel="8" midi.instrnum="0" midi.volume="77%"/>
+                           <staffDef xml:id="sbiqh8q2" lines="5" n="4" ppq="4">
+                              <clef xml:id="czag7zr2" line="2" shape="G"/>
+                              <keySig xml:id="kpplv2e1" sig="0"/>
+                              <meterSig xml:id="mczc6es1" count="4" sym="common" unit="4"/>
+                           </staffDef>
+                           <staffDef xml:id="sut075l1" lines="5" n="5" ppq="4">
+                              <clef xml:id="c6wped2" line="4" shape="F"/>
+                              <keySig xml:id="kdb9vr9" sig="0"/>
+                              <meterSig xml:id="mufuqze" count="4" sym="common" unit="4"/>
+                           </staffDef>
+                        </staffGrp>
                      </staffGrp>
-                  </staffGrp>
-               </scoreDef>
+                  </scoreDef>
                <section xml:id="sz4t07z1">
                   <pb xml:id="pnqqnuf"/>
                   <measure xml:id="m7ij5vb" facs="#zone_d1af2885af53401a8c" n="1">
@@ -175,7 +169,7 @@
                            </beam>
                         </layer>
                      </staff>
-                     <harm xml:id="h91pgzh1" place="above" staff="4" tstamp="3">
+                     <harm xml:id="h91pgzh1" place="below" staff="3" tstamp="3">
                         <fb xml:id="fb0pfgj2">
                            <f xml:id="fiv98bj2">6</f>
                         </fb>
@@ -273,17 +267,17 @@
                         </layer>
                      </staff>
                      <slur xml:id="sakim2f" endid="#s1hmkc5q" startid="#owui5bb"/>
-                     <harm xml:id="hspi58s2" place="above" staff="4" tstamp="1.5">
+                     <harm xml:id="hspi58s2" place="below" staff="3" tstamp="1.5">
                         <fb xml:id="ft0qou8">
                            <f xml:id="f0b7ddv2">6</f>
                         </fb>
                      </harm>
-                     <harm xml:id="h3bmsqi2" place="above" staff="4" tstamp="2">
+                     <harm xml:id="h3bmsqi2" place="below" staff="3" tstamp="2">
                         <fb xml:id="f342lle">
                            <f xml:id="fwx7t2g1">6</f>
                         </fb>
                      </harm>
-                     <harm xml:id="hl1mo951" place="above" staff="4" tstamp="2.5">
+                     <harm xml:id="hl1mo951" place="below" staff="3" tstamp="2.5">
                         <fb xml:id="fkbdgyg">
                            <f xml:id="fryfw6f">6</f>
                         </fb>
@@ -856,7 +850,6 @@
                               <note xml:id="nrt1r33" dur="16" dur.ppq="1" oct="4" pname="e" stem.dir="down"/>
                               <note xml:id="npydira1" dur="16" dur.ppq="1" oct="4" pname="g" stem.dir="down"/>
                               <note xml:id="nswp2sw2" dur="16" dur.ppq="1" oct="4" pname="e" stem.dir="down">
-                                 <artic xml:id="azxmgnn1" artic="stacc"/>
                               </note>
                               <note xml:id="nryxtk01" dur="16" dur.ppq="1" oct="4" pname="d" stem.dir="down"/>
                            </beam>
@@ -1081,7 +1074,6 @@
                               <note xml:id="nhnquib1" dur="16" dur.ppq="1" oct="4" pname="e" stem.dir="down"/>
                               <note xml:id="n19qzmx1" dur="16" dur.ppq="1" oct="4" pname="c" stem.dir="down"/>
                               <note xml:id="nye5s8p1" dur="16" dur.ppq="1" oct="3" pname="b" stem.dir="down">
-                                 <artic xml:id="aj7bizi2" artic="stacc"/>
                               </note>
                            </beam>
                            <beam xml:id="b4588oj2">
@@ -1122,18 +1114,7 @@
         </beam>
     </layer>
 </staff>
-<harm startid="#nao9owa" place="below">
-    <fb>
-        <f>6</f>
-        <f>5</f>
-    </fb>
-</harm>
-<harm startid="#n8a0k8u2" place="below">
-    <fb>
-        <f>6</f>
-    </fb>
-</harm>
-                     <staff xml:id="subuxcv1" n="4">
+  <staff xml:id="subuxcv1" n="4">
    <layer xml:id="l19iwvh1" n="1">
       <note xml:id="nvgcf981" dur="2" dur.ppq="8" oct="5" pname="c" stem.dir="up"/>
       <beam xml:id="bm_ac">
@@ -1183,6 +1164,17 @@
                      </staff>
                      <slur xml:id="sgwqgvs2" endid="#pw2tn5d" startid="#l4aekqh"/>
                      <tie xml:id="tpf3l5r1" endid="#e1n9qgaq" startid="#c1dz8qdc"/>
+                     <harm startid="#n8a0k8u2" staff="3"  place="below">
+                         <fb>
+                             <f>6</f>
+                         </fb>
+                     </harm>
+                      <harm startid="#nao9owa" staff="3"  place="below">
+                         <fb>
+                             <f>6</f>
+                             <f>5</f>
+                         </fb>
+                     </harm>
                   </measure>
                   <measure xml:id="mvopcxj2" facs="#zone_ed0cc14d63b34a0289" n="11">
                      <staff xml:id="sjvukav2" n="1">
@@ -1286,10 +1278,10 @@
                         </layer>
                      </staff>
                      <harm startid="#ne749961" place="below">
-   <fb>
-      <f>5b</f>
-   </fb>
-</harm>
+                        <fb>
+                           <f>5b</f>
+                        </fb>
+                     </harm>
                   </measure>
                </section>
             </score>
