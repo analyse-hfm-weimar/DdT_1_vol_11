@@ -3,10 +3,17 @@
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
-scripts/
-.github/
 mei_progress.py
 mei_progress_plots.py
+
+# Keep most helper infrastructure local, but publish the README progress updater.
+scripts/*
+!scripts/
+!scripts/update_readme_progress.py
+.github/*
+!.github/
+!.github/workflows/
+!.github/workflows/update-progress-grid.yml
 
 # Local progress outputs.
 progress_tracker_with_outputs_local.ipynb

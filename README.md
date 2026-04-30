@@ -57,10 +57,14 @@ https://api.digitale-sammlungen.de/iiif/image/v2/bsb00023199_00013/full/4134,/0/
 The following anonymous grid is generated from the MEI files in this repository. It distinguishes pages that have mei-friend edit metadata, pages that are present but not yet edited, and page numbers that are currently missing from the image-number sequence.
 
 <!-- progress-grid:start -->
-
 ![Anonymous page editing status](docs/progress/page_grid.svg)
 
-Updated: 2026-04-30.unding
+Updated: 2026-05-01.
+
+Current anonymous page status: 33 edited in mei-friend, 142 present but not yet edited, and 8 missing from the 183-page image sequence (175 MEI files currently present).
+<!-- progress-grid:end -->
+
+## Funding
 
 Work on this corpus is funded by the German Research Foundation (DFG), program Library and Information Services - E-Research Technologies (LIS), grant PF 669/18-1.
 
